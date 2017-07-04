@@ -1,12 +1,26 @@
 
+body {
+	  background:
+		url(/Users/sonijit/devenv/ws-sublime/dtech-web/ch-5/imgs/fields-of-grain.png);
+		background-repeat: no-repeat;
+		background-size: cover;
 
+}
+
+h1, div{
+	text-align: center;
+}
 
 .fail {
 	color: red;
 	font-weight: bold;
+	font-size: 3em;
 }
 
 .pass {
 	color: green;
 	font-weight: bold;
+	font-size: 2em;
 }
+
+/Users/sonijit/devenv/ws-sublime/dtech-web/ch-5/imgs
