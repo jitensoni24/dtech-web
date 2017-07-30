@@ -1,0 +1,33 @@
+h1 {
+	color: orange;
+}
+
+div {
+	width: 200px;
+	float: left;
+}
+
+
+#one {
+	background-color: blue;
+}
+
+#two {
+	background-color: purple;
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+p{
+	text-align: center;
+	margin-left: 34.98%;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 3px solid red;
+	width: 30%;
+}
