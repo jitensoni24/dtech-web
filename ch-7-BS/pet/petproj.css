@@ -31,4 +31,7 @@ hr.style-two {
 	text-align: center;
 	padding-top: 20%;
 	color: white;
+	text-shadow: 0px 2px 2px red,
+				 0px 4px 8px orange,
+				 0px 8px 13px yellow;
 }
