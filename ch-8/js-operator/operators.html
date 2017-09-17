@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Operator B</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <style type="text/css">
+    body {
+      padding-top: 10px;
+    }
+
+    .mytext {
+      color: #2c3e50;
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="well well-sm mytext">
+      <h1>Special operators in JS</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2">
+        Equals operator
+      </div>
+      <div class="col-md-2">
+        ==
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        Equals Operators with type
+      </div>
+      <div class="col-md-2">
+        ===
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="mytext">Truthy and falsy values</h3>
+        <h5 class="mytext">Values that aren't actually true or false are still 
+            evaluated as truthy or falsy in a conditional statement or boolean statement</h5>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          Examples<br>
+          !Hello World<br>
+          !" "
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  
+<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="operators.js"></script>
+
+<script type="text/javascript">
+  var x = 25;
+  console.log("value of x = " + x);
+
+  console.log("equals check : " + (x == "25"));
+  console.log("equals check : " + (x === "25"))
+
+
+  console.log("is NaN == NaN ?");
+
+  console.log(NaN == NaN);
+
+  var aa = 10;
+  var bb = "a";
+
+  console.log("aa && bb == " + aa + ".." + bb);
+  console.log("evaluate boolean logic : bb === 'b' || aa >=10 " + (bb === 'b' || aa >=10) )
+</script>
+
+</body>
+</html>
